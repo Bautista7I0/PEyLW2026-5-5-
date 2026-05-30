@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+</head>
+<body>
+    <h1><u>Inmoviliaria 
+        <font color="#1d1bd3">U</font><font color="#f5091a">N</font><font color="#fbd307">C</font>
+    </u></h1>
+    <form method="post" action="mailto:reclamos@gmail.com" enctype="text/plain">
+        <div>
+            <label>Ingrese su nombre:</label><br/>
+            <input type="text" name="nombre" maxlength="25"><br/>
+        </div>
+        <div>
+            <label>Ingrese su apellido:</label><br/>
+            <input type="text" name="apellido" maxlength="25"><br/>
+        </div>
+        <div>
+            <label>Ingrese su dirección:</label><br/>
+            <input type="text" name="direccion" maxlength="30"><br/>
+        </div>
+        <div>
+            <label>Ingrese su telefono:</label><br/>
+            <input type="number" name="telefono" maxlength="15" value="0299" min="0" max="9999999999"><br/> <!-- El maxlength no funciona -->
+        </div>
+        <br/>
+        <div>
+            <label>Seleccione su decision:</label><br/>
+            <input type="radio" name="decision" value="Alquilar">Alquilar<br/>
+            <input type="radio" name="decision" value="Comprar" checked>Comprar<br/>
+        </div>
+        <br/>
+        <div>
+            <label>Seleccione la zona:</label><br/>
+            <input type="checkbox" name="zona" value="Zona Norte">Zona Norte<br/>
+            <input type="checkbox" name="zona" value="Zona Centro" checked>Zona Centro<br/>
+            <input type="checkbox" name="zona" value="Zona Sur" checked>Zona Sur
+        </div>
+        <br/>
+        <div>
+            <label>Ingrese el inmueble que busca:</label><br/>
+            <textarea name="busqueda" rows="10" cols="50"></textarea>
+        </div>
+        <input type="reset" value="Resetear"><br/>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

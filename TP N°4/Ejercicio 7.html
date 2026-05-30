@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="nombre"><big>
+                Ingrese su Nombre y Apellido:
+            </big></label>
+        </div>
+        <input type="text" name="nombre y apellido" maxlength="40"><br/>
+        <div>
+            <label for="edad"><big>
+                Ingrese su edad:
+            </big></label>
+        </div>
+        <input type="number" name="edad" maxlength="3" min="0" max="120"><br/> <!-- el atributo maxlength no funciona-->
+        <div>
+            <label for="dni"><big>
+                Ingrese su DNI:
+            </big></label>
+        </div>
+        <input type="number" name="dni" maxlength="8" min="0" max="99999999"><br/> <!-- el atributo maxlength no funciona-->   
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
