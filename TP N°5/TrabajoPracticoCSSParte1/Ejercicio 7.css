@@ -1,0 +1,13 @@
+h1{
+    font-family: Arial;
+    font-size: 50px;
+    color: rgb(28, 28, 173);
+}
+
+h2{
+    font-weight: bold;
+}
+
+p{
+    font-family: italic;
+}
