@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #fdecff;
+}
+
+img {
+    width: 300px;
+}
+
+.u {
+    color: #1d1bd3;
+    font-family: impact;
+    letter-spacing: .5px;
+}
+
+.n {
+    color: #f5091a;
+    letter-spacing: .5px;
+    font-family: impact;
+}
+
+.c {
+    color: #fbd307;
+    letter-spacing: .5px;
+    font-family: impact;
+}
+
+input[type="text"], [type='number'] {
+    border: 1px solid;
+    border-color: #C5C5C5;
+    font-family: arial 12px;
+    padding: 5px;
+}
+
+input[type="submit"], [type="reset"] {
+    border: 5px groove #fdecff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #fdecff;
+}
